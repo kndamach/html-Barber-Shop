@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="BarberCSS.css" rel="stylesheet">
+        <style>
+            body{margin: 0px; padding: 0px;}
+            html{margin: 0px; padding: 0px}
+            h2 {font-family: "Brush Script MT"; color: brown; font-weight: 10; position: relative; left:50px}  
+            h1{margin-top: 0px; padding-top: 0px}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a href="kinder.html">
+                <button class="button button1">Kinder</button>
+            </a>
+            
+            <a href="Frauen.html">
+                <button class="button button2">Frauen</button>
+            </a>
+            
+            <a href="Herrn.html">
+                <button class="button button3">Herren</button>
+            </a>
+            
+            <a href="index.html">
+                <button class="button button4">Main</button>
+            </a>
+            
+        </div>
+        <div class="kBox">
+            <h1 class="kPoster">buch dein Termin</h1>
+            <img src="bilder_friseur/kinder.jpg" class="kinder2" alt="kind"  >
+            <form action=mailto:empfaenger@provider.com name="lyform" id="lyform"
+                  method="post">
+                <h2>Vorname</h2><input type="text" name="vName" id="von" size="20" maxlength="30" class="vName">
+                <h2>Name</h2><input type="text" name="name" id="von" size="20" maxlength="30" class="name">
+                <h2>Telefon</h2><input type="tel" pattern="[0-9]{11}" required class="tel">
+                <h2>Datum</h2>
+                <label>
+                    <input type="date" id="gebdat" class="datum">
+                </label>
+                <input type="submit" name="submit" value="absenden" class="submit">&nbsp;
+                <input type="reset" name="reset" value="löschen" class="reset">
+            </form>
+        </div>
+        <div class="fuss1">
+            <a href="https://facebook.com" >
+                <img src="bilder_friseur/facebook.png" class="facebook" alt="facebook">
+            </a>
+            <a href="https://instagram.com" >
+                <img src="bilder_friseur/insta.png" class="insta" alt="insta">
+            </a>
+        </div>
+    </body>
+</html>

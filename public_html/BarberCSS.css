@@ -1,0 +1,310 @@
+.header{
+    background-color: #ECCDB4;
+    width: 100%;
+    height: 60px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.button{
+    background-color: #FFD95A; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4E3636;
+  position: relative;
+  left: 50px;
+}
+.button1:hover {
+  background-color: #FFD95A;
+  color: white;
+  
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4E3636;
+  position: relative;
+  left: 150px;
+}
+.button2:hover {
+  background-color: #FFD95A;
+  color: white;
+  
+}
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4E3636;
+  position: relative;
+  left: 250px;
+}
+.button3:hover {
+  background-color: #FFD95A;
+  color: white;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4E3636;
+  position: relative;
+  left: 350px;
+}
+.button4:hover {
+  background-color: #FFD95A;
+  color: white;
+}
+.box{
+    background-color: #F6F1E9;
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+.kind{
+    width: 270px;
+    height: 200px;
+    overflow: hidden;
+    padding-bottom: 50px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+
+}
+.ladywasch{
+    width: 310px;
+    height: 360px;
+    position: relative;
+    top:130px;
+    padding-left: 90px;
+}
+.werkzeug{
+    width: 230px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+.ladys{
+    width: 310px;
+    height: 360px; 
+    position: relative;
+    top:130px;
+    left:100px;
+}
+.manSaloon{
+    width: 270px;
+    height: 200px; 
+    position: relative;
+    left:160px;
+    bottom:  30px;
+}
+.poster{
+    color: brown;
+    font-weight: 50;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Brush Script MT";
+    position: relative;
+    bottom: 340px;
+}
+.line{
+  background-color: #FFD95A;
+height: 10px;
+width: 100%;
+
+}
+.scissors{
+ width: 70px;
+    height: 70px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    animation: perspect 10s infinite linear }
+ @keyframes perspect {
+ 0% {transform:perspective(300px) rotateY(0deg)}
+ 25% {transform:perspective(300px) rotateY(90deg)}
+ 50% {transform:perspective(300px) rotateY(180deg)}
+ 75% {transform:perspective(300px) rotateY(270deg)}
+100% {transform:perspective(300px) rotateY(360deg)}
+}
+
+.spruch{
+  color: brown;
+    font-weight: 50;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Brush Script MT";
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.spruch1{
+  color: brown;
+    font-weight: 50;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Brush Script MT";
+    position: relative;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.hairPick{
+ width: 80px;
+    height: 80px;
+    position: relative;
+    top: 50px;
+    left: 1470px;
+    animation: perspect 10s infinite linear }
+ @keyframes perspect {
+ 0% {transform:perspective(300px) rotateY(0deg)}
+ 25% {transform:perspective(300px) rotateY(90deg)}
+ 50% {transform:perspective(300px) rotateY(180deg)}
+ 75% {transform:perspective(300px) rotateY(270deg)}
+100% {transform:perspective(300px) rotateY(360deg)}
+}
+.bottom{
+    background-color: #C8DBBE;
+    width: 100%;
+    height: 240px;
+}
+.fuss{
+    width: 100%;
+    height: 50px;
+    background-color: #A4D0A4;
+}
+.facebook{
+    position: relative;
+    left: 400px;
+}
+.insta{
+    position: relative;
+    left: 1100px;
+}
+.kBox{
+   position: relative;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin-left: 0px; margin-right: 0px; margin-top: 0px;
+    padding-left: 0px; margin-right: 0px; margin-top: 0px;
+  widows: 100%;
+   background-color: #C8DBBE;
+}
+.kinder2{
+   width:900px;
+   position: absolute;
+   left: 600px;
+}
+.kPoster{
+    font-weight: 30;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Brush Script MT";
+    position: relative;
+}
+.vName{
+    position: absolute;
+    left:150px;
+    top: 100px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.name{
+    position: absolute;
+    left:150px;
+    top: 150px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+.tel{
+    position: absolute;
+    left:150px;
+    top: 195px;
+ padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;   
+}
+.datum{
+    position: absolute;
+    left:150px;
+    top: 245px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+.submit {
+     position: relative; 
+     left:100px;
+    background: none !important;
+    color: #3387c4;
+    border: none;
+    padding: 0 !important;
+    font-family: "Brush Script MT";
+    cursor: pointer;
+    font-size: 25px;
+}
+    .submit:hover {
+        background: none !important;
+        color: #25618c;
+        border: none;
+        padding: 0 !important;
+        font-family: "Brush Script MT";
+        cursor: pointer;
+        
+    }
+    .reset {
+       position: relative; 
+       left:150px;
+    background: none !important;
+    color: #3387c4;
+    border: none;
+    padding: 0 !important;
+    font-family: "Brush Script MT";
+    cursor: pointer;
+    font-size: 25px;
+}
+    .reset:hover {
+        background: none !important;
+        color: #25618c;
+        border: none;
+        padding: 0 !important;
+        font-family: "Brush Script MT";
+        cursor: pointer;       
+    }
+    
+    .frau-S{
+      width:450px;
+   position: absolute;
+   left: 630px;  
+    }
+
+    .frau2-S{
+      width:450px;
+   position: absolute;
+   left: 1100px;  
+    }
+    .fuss1{
+        margin-top: 500px;
+        width: 100%;
+    height: 50px;
+    background-color: #A4D0A4;
+    }
+#lyform{width: 1400px}
